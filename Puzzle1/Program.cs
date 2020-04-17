@@ -19,7 +19,7 @@ namespace Logic1
             {
                 if (myNum[low] + myNum[high] == snumber)
                 {                
-                    Console.WriteLine("Matche found at Index: " + low + " and " + high + "(" + myNum[low] + "+" + myNum[high] + ")\n");
+                    Console.WriteLine("Match found at Index: " + low + " and " + high + "(" + myNum[low] + "+" + myNum[high] + ")\n");
                     low++;
 
                 }

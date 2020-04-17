@@ -1,112 +1,118 @@
 ﻿using System;
 
-namespace FactoryDesign
+namespace FactoryPuzzle
 {
-    /// The 'Product' Abstract Class  
-
-    public abstract class ArrayValues
+    public interface IPuzzle
     {
-        public abstract string logic { get; }
-        public abstract int[] myNum { get; set; }
-        public abstract int snumber { get; set; }
+        public void Match(int[] myNum, int snumber);
     }
 
-
-    /// A 'ConcreteProduct' class  
-
-    public class Method1 : ArrayValues
+    public class Logic1 : IPuzzle
     {
-        private  string _logic;
-        private int[] _myNum;
-        private int _snumber;
-        public Method1(int[] myNum, int snumber)
+        public void Match(int[] myNum, int snumber)
         {
-            _myNum = myNum;
-            _snumber = snumber;
-            Console.WriteLine("Puzzle Method 1");
             for (int i = 0; i < myNum.Length; i++)
             {
                 for (int j = i + 1; j < myNum.Length; j++)
                 {
-
                     if (myNum[i] + myNum[j] == snumber)
                     {
                         Console.WriteLine("Match found at Index:" + i + " and " + j + "(" + myNum[i] + "+" + myNum[j] + ")\n");
                     }
-
                 }
             }
         }
-
-        public override string logic => throw new NotImplementedException();
-
-        public override int[] myNum { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int snumber { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 
-
-
-
-    /// The 'Creator' Abstract Class  
-
-    public abstract class ArrayFactory
+    public class Logic2 : IPuzzle
     {
-        public abstract ArrayValues GetArrayValues();
-    }
-
-    /// A 'ConcreteCreator' class  
-
-    public class Method1Factory : ArrayFactory
-    {
-        private string _logic;
-        private int[] _myNum;
-        private int _snumber;
-        public Method1Factory(int[] myNum, int snumber)
+        public void Match(int[] myNum, int snumber)
         {
-            _myNum = myNum;
-            _snumber = snumber;
-        }
+            Array.Sort(myNum);
 
-        public override ArrayValues GetArrayValues()
-        {
-            return new Method1(_myNum, _snumber);
+            int low = 0;
+            int high = myNum.Length - 1;
+
+            while (low < high)
+            {
+                if (myNum[low] + myNum[high] == snumber)
+                {
+                    Console.WriteLine("Match found at Index: " + low + " and " + high + "(" + myNum[low] + "+" + myNum[high] + ")\n");
+                    low++;
+
+                }
+                else if (myNum[low] + myNum[high] < snumber)
+                {
+                    low = low + 1;
+                }
+                else
+                {
+                    high = high - 1;
+                }
+            }
         }
     }
+    public abstract class PuzzleFactory
+    {
+        public abstract IPuzzle GetMatch(string Logic);
 
+    }
+
+    /// <summary>
+    /// A 'ConcreteCreator' class
+    /// </summary>
+    public class ConcretePuzzleFactory : PuzzleFactory
+    {
+        public override IPuzzle GetMatch(string Logic)
+        {
+            switch (Logic)
+            {
+                case "Logic1":
+                    return new Logic1();
+                case "Logic2":
+                    return new Logic2();
+                default:
+                    throw new ApplicationException(string.Format("Vehicle '{0}' cannot be created", Logic));
+
+
+            }
+        }
+    }
     public class Program
     {
         public static void Main(string[] args)
         {
-            ArrayFactory factory = null;
-            Console.WriteLine("Enter the Method you want to ues\n1. Method1\n2. Method2\n");
-            int method = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Size of Array:");
-            int num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Method you want to use:\n1.Method 1\n2.Method 2");
+            int method= Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Enter the no of elements in the array");
+            int num = Convert.ToInt16(Console.ReadLine());
             int[] myNum = new int[num];
-            Console.WriteLine("Enter the Sum Number that is to be Matched:");
-            int snumber = Convert.ToInt32(Console.ReadLine()); ;
-            Console.WriteLine("Enter Elements into Array:");
-            for (int a = 0; a < num; a++)
+            Console.WriteLine("Enter the elements");
+            for (int i = 0; i < num; i++)
             {
-                myNum[a] = Convert.ToInt32(Console.ReadLine());
+                myNum[i] = Convert.ToInt16(Console.ReadLine());
             }
-
+            Console.WriteLine("Enter the sum of the number to be found");
+            int snumber = Convert.ToInt16(Console.ReadLine());
+            PuzzleFactory factory = new ConcretePuzzleFactory();
             switch (method)
             {
-                case 1:
-                    factory = new Method1Factory(myNum, snumber);
+                case 1: 
+                    IPuzzle logic1 = factory.GetMatch("Logic1");
+                    logic1.Match(myNum, snumber);
                     break;
-                /*case "method2":
-                    factory = new TitaniumFactory(100000, 500);
-                    break;*/
-                default:
+                case 2: 
+                    IPuzzle logic2 = factory.GetMatch("Logic2");
+                    logic2.Match(myNum, snumber);
                     break;
+                default: break;
             }
+            
+            
+            //Console.ReadKey();
 
-            /*arrayvalues arrayvalues = factory.Getarrayvalues();
-            Console.WriteLine("\nYour method details are below : \n");
-            Console.WriteLine("method Type: {0}\nCredit Limit: {1}\nAnnual Charge: {2}",
-                arrayvalues.logic, arrayvalues.[] myNum, arrayvalues.snumber);*/
         }
     }
+
 }
+
