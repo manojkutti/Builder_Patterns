@@ -1,0 +1,13 @@
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.exe
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.deps.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.runtimeconfig.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.runtimeconfig.dev.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.csprojAssemblyReference.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.csproj.CoreCompileInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.AssemblyInfoInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.AssemblyInfo.cs
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.genruntimeconfig.cache

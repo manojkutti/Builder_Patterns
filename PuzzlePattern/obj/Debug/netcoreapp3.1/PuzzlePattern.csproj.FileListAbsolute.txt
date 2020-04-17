@@ -1,0 +1,13 @@
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.exe
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.deps.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.runtimeconfig.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.runtimeconfig.dev.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\bin\Debug\netcoreapp3.1\PuzzlePattern.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.csproj.CoreCompileInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.AssemblyInfoInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.AssemblyInfo.cs
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.genruntimeconfig.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\PuzzlePattern\obj\Debug\netcoreapp3.1\PuzzlePattern.csprojAssemblyReference.cache

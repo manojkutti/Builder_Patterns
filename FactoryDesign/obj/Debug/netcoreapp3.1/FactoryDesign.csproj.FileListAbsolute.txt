@@ -1,0 +1,12 @@
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.exe
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.deps.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.runtimeconfig.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.runtimeconfig.dev.json
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\bin\Debug\netcoreapp3.1\FactoryDesign.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.csproj.CoreCompileInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.AssemblyInfoInputs.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.AssemblyInfo.cs
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.pdb
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\FactoryDesign\obj\Debug\netcoreapp3.1\FactoryDesign.genruntimeconfig.cache
