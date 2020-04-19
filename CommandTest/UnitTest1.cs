@@ -1,5 +1,5 @@
 using System;
-//using CommandDesign;
+using CommandDesign;
 using Xunit;
 
 namespace Command.Test
@@ -9,12 +9,18 @@ namespace Command.Test
         [Fact]
         public void Test1()
         {
-            /*Light lamp = new Light();
-            ICommand switchUp = new FlipUpCommand(lamp);
-            Switch s = new Switch();
-             s.StoreAndExecute(switchUp);
-            switchUp.Execute();
-            Assert.Equal(, "The light is on");*/
+            Light lamp = new Light();
+            String actual=lamp.TurnOn();
+            String expected = "The light is on";
+            Assert.Equal(actual,expected);
+        }
+        [Fact]
+        public void Test2()
+        {
+            Light lamp = new Light();
+            String actual = lamp.TurnOff();
+            String expected = "The light is off";
+            Assert.Equal(actual, expected);
         }
     }
 }

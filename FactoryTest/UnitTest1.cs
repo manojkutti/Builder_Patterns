@@ -33,7 +33,7 @@ namespace Factory.Test
             string expected1 = card.CardType;
             int expected2 = card.CreditLimit;
             int expected3 = card.AnnualCharge;
-            string actual1 = "MoneyBack";
+            string actual1 = "Titanium";
             int actual2 = 100000;
             int actual3 = 500;
 
@@ -52,7 +52,7 @@ namespace Factory.Test
             string expected1 = card.CardType;
             int expected2 = card.CreditLimit;
             int expected3 = card.AnnualCharge;
-            string actual1 = "MoneyBack";
+            string actual1 = "Platinum";
             int actual2 = 500000;
             int actual3 = 1000;
 

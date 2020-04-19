@@ -94,3 +94,6 @@ C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\obj\Debug\netcoreapp3.1\
 C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\obj\Debug\netcoreapp3.1\CommandTest.dll
 C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\obj\Debug\netcoreapp3.1\CommandTest.pdb
 C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\obj\Debug\netcoreapp3.1\CommandTest.genruntimeconfig.cache
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\bin\Debug\netcoreapp3.1\CommandDesign.exe
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\bin\Debug\netcoreapp3.1\CommandDesign.dll
+C:\Users\udayk\Desktop\C_Sharp\CSharp_Manoj\CommandTest\bin\Debug\netcoreapp3.1\CommandDesign.pdb

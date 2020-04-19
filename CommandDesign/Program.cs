@@ -18,7 +18,7 @@ namespace CommandDesign
         public void StoreAndExecute(ICommand command)
         {
 
-            command.Execute();
+             command.Execute();
         }
     }
 
@@ -27,14 +27,15 @@ namespace CommandDesign
 
     public class Light
     {
-        public void TurnOn()
+        public String TurnOn()
         {
-            Console.WriteLine("The light is on");
+            return "The light is on";
         }
 
-        public void TurnOff()
+        public String TurnOff()
         {
-            Console.WriteLine("The light is off");
+            return "The light is off";
+            
         }
     }
 
@@ -52,7 +53,8 @@ namespace CommandDesign
 
         public void Execute()
         {
-            _light.TurnOn();
+           String str=_light.TurnOn();
+            Console.WriteLine(str);
         }
     }
 
@@ -70,7 +72,8 @@ namespace CommandDesign
 
         public void Execute()
         {
-            _light.TurnOff();
+            String str=_light.TurnOff();
+            Console.WriteLine(str);
         }
     }
 
